@@ -31,26 +31,9 @@ class App extends Component {
   }
 
   render() {
-    debugger;
-    let id = 0
-
-    let customers = this.state.customers.map(customer => {
-      id ++
-      return(
-        <Customer
-          key={id}
-          name={customer.name}
-          gif={customer.gif}
-          quote={customer.quote}
-        />
-      )
-      }
-
-    )
     return(
       <div>
           <h1>Actual Customers of Dunkin</h1>
-          {customers}
       </div>
     )
   }
