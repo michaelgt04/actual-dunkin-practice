@@ -1,4 +1,11 @@
-Note:
+# Actual Dunkin Livecode Starter Repo
+
+## Description
+This is the starter code if you all want to go back and code along with the clinic
+video. The steps to create the app are also written down at the bottom of this
+README. 
+
+## Setup
 You'll need to run the following commands to get started!
 
 `npm install`
